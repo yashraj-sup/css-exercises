@@ -1,1 +1,16 @@
-/* Add CSS Styling */
+.odd{
+    background-color: lightpink;
+    font-family:Verdana,"DejaVu",sans-serif;
+}
+#two{
+    color:#0000ff;
+    font-size:36px;
+}
+.adjust font-size{
+    font-size:24px;
+}
+#four{
+    background-color:hsl(120,100%,75%);
+    font-size:24px;
+    font-style:bold;
+}
