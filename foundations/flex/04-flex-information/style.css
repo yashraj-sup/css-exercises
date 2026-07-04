@@ -5,11 +5,31 @@ body {
 img {
   width: 100px;
   height: 100px;
+  flex-direction:row;
+  flex-wrap:wrap-reverse;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-bottom:32px;
+}
+.items{
+  display:flex;
+  gap:16px;
+}
+.item{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width:200px;
+}
+.text{
+  display:flex;
+  text-align:center;
 }
 
 /* do not edit this footer */
